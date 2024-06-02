@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.fondo-matrix {
+    display: flex;
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+}
+
+
+
+.foto-perfil {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 200px;
+}
+
+.titulo {
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    top: 5px;
+    left: 50px;
+    letter-spacing: -2px;
+}
+
+.resumen {
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: center;
+    top: 80px;
+    left: 30px;
+    letter-spacing: 0px;
+}
+
+.titulo-metas {
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    top: 280px;
+    left: 60px;
+    letter-spacing: -1px;
+}
+
+.lista-metas {
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    top: 330px;
+    left: 140px;
+    letter-spacing: 0px;
+}
+
+.linkedin {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    top: 225px;
+    right: 35px;
+    letter-spacing: 0px;
+}
+
+.linkedin {
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    color: #2ff708;
+    font-size: 24px;
+    transition: 0.5s ease-in-out;
+}
+
+.titulo-projetos {
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    top: 430px;
+    left: 80px;
+    letter-spacing: -1px;
+}
+
+.lista-projetos {
+    height: 100vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0 0 1px;
+}
+
+.link-projetos {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    margin-left: -8px;
+    padding: 0 10px;
+    bottom: -150px;
+}
+
+.link-projetos:after {
+    content: "";
+    position: absolute;
+    background-color: #2ff708;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.link-projetos:hover:after {
+    width: 100%;
+}
+
+.img-deveclub {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    height: 60px;
+    cursor: pointer;
+}
